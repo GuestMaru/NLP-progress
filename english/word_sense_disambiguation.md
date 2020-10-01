@@ -51,9 +51,10 @@ The main evaluation measure is F1-score.
 |WN 1st sense baseline | 65.2 | 66.8 | 66.2 | 55.2 | 63.0 | 67.8 | [[1]](http://aclweb.org/anthology/E/E17/E17-1010.pdf) |
 |Babelfy | 65.5 | 67.0 | 63.5 | 51.6 | 66.4 | 70.3 | [[8]](http://aclweb.org/anthology/Q14-1019) |
 |UKB<sub>ppr_w2w-nf</sub> | 57.5 | 64.2 | 54.8 | 40.0 | 64.5 | 64.5 | [[9]](https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00164) [[12]](http://aclweb.org/anthology/W18-2505) |
-|UKB<sub>ppr_w2w</sub> | 67.3 | 68.8 | 66.1 | 53.0 | **68.8** | 70.3 | [[9]](https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00164) [[12]](http://aclweb.org/anthology/W18-2505) |
-|WSD-TM | 66.9 | 69.0 | **66.9** | 55.6 | 65.3 | 69.6 | [[10]](https://arxiv.org/pdf/1801.01900.pdf) |
-|KEF | **68.0** | **69.6** | 66.1 | **56.9** | 68.4 | **72.3** | [[16]](https://doi.org/10.1016/j.knosys.2019.105030) [[code]](https://github.com/lwmlyy/Knowledge-based-WSD)|
+|UKB<sub>ppr_w2w</sub> | 67.3 | 68.8 | 66.1 | 53.0 | 68.8 | 70.3 | [[9]](https://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00164) [[12]](http://aclweb.org/anthology/W18-2505) |
+|WSD-TM | 66.9 | 69.0 | 66.9 | 55.6 | 65.3 | 69.6 | [[10]](https://arxiv.org/pdf/1801.01900.pdf) |
+|KEF | 68.0 | 69.6 | 66.1 | 56.9 | 68.4 | 72.3 | [[16]](https://doi.org/10.1016/j.knosys.2019.105030) [[code]](https://github.com/lwmlyy/Knowledge-based-WSD) |
+|SyntagRank | **71.7** | **71.6** | **72.0** | **59.3** | **72.2** | **75.8** | [[19]](https://www.aclweb.org/anthology/2020.acl-demos.6.pdf) [[20]](https://www.aclweb.org/anthology/D19-1359.pdf) [[web]](http://syntagnet.org/)
 
 Note: 'All' is the concatenation of all datasets, as described in [10] and [12]. The scores of [6,7] and [9] are not taken from the original papers but from the results of the implementations of [11] and [12], respectively.
 
@@ -92,6 +93,10 @@ Note: 'All' is the concatenation of all datasets, as described in [10] and [12].
 [17] [Moving Down the Long Tail of Word Sense Disambiguation with Gloss Informed Bi-encoders](https://www.aclweb.org/anthology/2020.acl-main.95/)
 
 [18] [Breaking Through the 80% Glass Ceiling: Raising the State of the Art in Word Sense Disambiguation by Incorporating Knowledge Graph Information](https://www.aclweb.org/anthology/2020.acl-main.255/)
+
+[19] [Personalized PageRank with Syntagmatic Information for Multilingual Word Sense Disambiguation](https://www.aclweb.org/anthology/2020.acl-demos.6/)
+
+[20] [SyntagNet: Challenging Supervised Word Sense Disambiguation with Lexical-Semantic Combinations](https://www.aclweb.org/anthology/D19-1359/)
 
 
 ## WSD Lexical Sample task:
